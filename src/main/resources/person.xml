@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <firstname>Joe</firstname>
+  <lastname>Walnes</lastname>
+  <phone>
+    <code>123</code>
+    <number>1234-456</number>
+  </phone>
+  <fax code="123" number="9999-999" />
+  <friends>
+  	<friend>zhang</friend>
+  	<friend>wang</friend>
+  </friends>
+</person>

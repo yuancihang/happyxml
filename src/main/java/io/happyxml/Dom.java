@@ -245,6 +245,12 @@ public class Dom {
 	 */
 	public Dom text(String value){
 		Node textNode =  e.getFirstChild();
+		if(textNode == null){
+			Document document = e.getOwnerDocument();
+			Text text = document.createTextNode(value);
+			e.appendChild(text);
+			return this;
+		}
 		textNode.setNodeValue(value);
 		return this;
 	}
@@ -255,6 +261,9 @@ public class Dom {
 	 */
 	public String text(){
 		Node textNode =  e.getFirstChild();
+		if(textNode == null){
+			return "";
+		}
 		return textNode.getNodeValue();
 	}
 	
