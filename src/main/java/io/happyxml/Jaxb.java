@@ -25,9 +25,6 @@ import io.happyxml.annotation.XmlInit;
 
 /**
  * XML与Java对象绑定
- * @author <a href="mailto:cihang.yuan@happyelements.com">cihang.yuan</a>
- * @version 1.0 2014年4月14日
- * @since 1.0
  */
 public class Jaxb {
 	
@@ -63,8 +60,8 @@ public class Jaxb {
 	
 	/**
 	 * 验证文档是否有效
-	 * @param f File
-	 * @return
+	 * @param f File 文件
+	 * @return 验证是否正确
 	 */
 	public static boolean validator(final File f){
 		//加载一个模式工厂
