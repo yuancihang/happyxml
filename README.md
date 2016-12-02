@@ -89,3 +89,12 @@
             <avatar>http://assets.taobaocdn.com/app/sns/img/default/avatar-120.png</avatar>
         </user>
     </user_buyer_get_response>
+    
+## maven
+	<dependency>
+	    <groupId>com.github.yuancihang</groupId>
+	    <artifactId>happyxml</artifactId>
+	    <version>1.1</version>
+	</dependency>
+## gradle
+	compile 'com.github.yuancihang:happyxml:1.1'
